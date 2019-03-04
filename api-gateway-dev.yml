@@ -4,7 +4,7 @@ zuul:
   routes:
     # /myProduct/product/list ->/product/product/list
     myProduct:
-      path: /login/**
+      path: /user/**
       serviceId: user
   #    简介写法
   #    product: /myProduct/**
