@@ -3,9 +3,10 @@ zuul:
   sensitive-headers:
   routes:
     # /myProduct/product/list ->/product/product/list
-    myProduct:
-      path: /user/**
-      serviceId: user
+#     myProduct:
+#       path: /myProduct/**
+#       serviceId: product  
+    use: /user/**
   #    简介写法
   #    product: /myProduct/**
   ignored-patterns:
