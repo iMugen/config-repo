@@ -4,8 +4,8 @@ zuul:
   routes:
     # /myProduct/product/list ->/product/product/list
     myProduct:
-      path: /myProduct/**
-      serviceId: product
+      path: /login/**
+      serviceId: user
   #    简介写法
   #    product: /myProduct/**
   ignored-patterns:
